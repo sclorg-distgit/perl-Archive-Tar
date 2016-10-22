@@ -1,8 +1,8 @@
 %{?scl:%scl_package perl-Archive-Tar}
 
 Name:           %{?scl_prefix}perl-Archive-Tar
-Version:        2.08
-Release:        5%{?dist}
+Version:        2.10
+Release:        1%{?dist}
 Summary:        A module for Perl manipulation of .tar files
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -114,6 +114,9 @@ find %{buildroot} -type f -name .packlist -delete
 
 
 %changelog
+* Fri Jul 29 2016 Petr Pisar <ppisar@redhat.com> - 2.10-1
+- 2.10 bump
+
 * Sun Jul 24 2016 Petr Pisar <ppisar@redhat.com> - 2.08-5
 - Rebuild without bootstrap
 
