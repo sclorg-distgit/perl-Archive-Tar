@@ -9,7 +9,7 @@
 
 Name:           %{?scl_prefix}perl-Archive-Tar
 Version:        2.32
-Release:        451%{?dist}
+Release:        452%{?dist}
 Summary:        A module for Perl manipulation of .tar files
 License:        GPL+ or Artistic
 URL:            https://metacpan.org/release/Archive-Tar
@@ -110,6 +110,9 @@ will also support compressed or gzipped tar files.
 
 
 %changelog
+* Tue Jan 07 2020 Jitka Plesnikova <jplesnik@redhat.com> - 2.32-452
+- Re-rebuild of bootstrapped packages
+
 * Wed Nov 20 2019 Jitka Plesnikova <jplesnik@redhat.com> - 2.32-451
 - SCL
 
